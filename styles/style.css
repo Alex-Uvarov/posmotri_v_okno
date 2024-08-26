@@ -240,8 +240,9 @@ input:focus {
 }
 
 .search-form__pseudo-checkbox {
-  display: inline-block;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
@@ -292,9 +293,6 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   display: inline-block;
   width: 15px;
   height: 15px;
-  position: absolute;
-  margin-top: 1px;
-  margin-left: 1px;
   background-color: #fff;
 }
 
