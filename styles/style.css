@@ -111,7 +111,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  width: 194px;
+  width: 192px;
   height: 103px;
   object-fit: cover;
   align-self: center;
@@ -288,7 +288,7 @@ input:focus {
 }
 
 .more-button {
-  width: 390px;
+  width: 388px;
   margin: 2px;
 }
 
