@@ -67,7 +67,6 @@ ol {
   position: relative;
   height: 298px;
   overflow: auto;
-  overflow-x: hidden;
 }
 
 .content__details {
@@ -119,7 +118,7 @@ ol {
 }
 
 .content__video-card-description-container {
-  width: 100%;
+  width: 200px;
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -178,7 +177,7 @@ ol {
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .content__video-card-description {
